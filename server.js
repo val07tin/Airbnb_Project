@@ -1,4 +1,7 @@
 // server.js - The Backend
+require('dotenv').config(); 
+console.log('DB_HOST:', process.env.DB_HOST);
+
 const express = require('express');
 const mysql = require('mysql2');
 const app = express();
