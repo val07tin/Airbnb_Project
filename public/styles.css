@@ -1,0 +1,27 @@
+
+.ward-label {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    border-radius: 30px;
+    padding: 8px 14px;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.leaflet-tooltip.ward-label:before {
+    display: none;   
+}
+
+
+
+#map {
+    width: 1120px;
+    height: 350px;
+
+    border-radius: 15px;   /* smooth rounded edges */
+    overflow: hidden;      /* prevents map tiles from spilling outside */
+
+    border: 2px solid #ccc;
+}
+
