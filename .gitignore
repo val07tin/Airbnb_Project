@@ -16,3 +16,10 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Ignore everything in the venv folder
+venv/*
+
+# But do NOT ignore the Python converter
+!venv/converter.py
+!venv/geoJSONconverter.py
